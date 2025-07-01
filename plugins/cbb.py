@@ -74,7 +74,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                 f"<b>❏ 150₹    ➠    𝟶𝟹 ᴍᴏɴᴛʜ</b>\n"
                 f"<b>❏ 280₹    ➠    𝟶𝟼 ᴍᴏɴᴛʜ</b>\n"
                 f"<b>❏ 550₹    ➠    𝟷𝟸 ᴍᴏɴᴛʜ</b>\n\n"
-                f"<b>🆔 ᴜᴘɪ ɪᴅ ➩ <code>vishal.kumar@upi</code> [ᴛᴀᴘ ᴛᴏ ᴄᴏᴘʏ]</b>\n\n"
+                f"<b>🆔 ᴜᴘɪ ɪᴅ ➩ <code>Viishalku@ybl</code> [ᴛᴀᴘ ᴛᴏ ᴄᴏᴘʏ]</b>\n\n"
                 f"<b>⛽️ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ: /myplan</b>\n\n"
                 f"<b>‼️ ᴍᴜsᴛ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ ᴀғᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ.</b>"
             ),
