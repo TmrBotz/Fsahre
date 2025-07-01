@@ -23,7 +23,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([
                 [InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
-                 InlineKeyboardButton("ᴄʟᴏꜱᴇ", callback_data='close')]
+                 InlineKeyboardButton('ᴄʟᴏꜱᴇ', callback_data='close')]
             ])
         )
 
@@ -42,8 +42,8 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             text=START_MSG.format(first=query.from_user.first_name),
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("ʜᴇʟᴘ", callback_data='help'),
-                 InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data='about')]
+                [InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
+                 InlineKeyboardButton('ᴄʟᴏꜱᴇ', callback_data='close')]
             ])
         )
 
@@ -67,22 +67,22 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             chat_id=query.message.chat.id,
             photo=QR_PIC,
             caption=(
-                f"👋 {query.from_user.username}\n\n"
-                f"🎖️ Available Plans :\n\n"
-                f"● {PRICE1}  For 0 Days Prime Membership\n\n"
-                f"● {PRICE2}  For 1 Month Prime Membership\n\n"
-                f"● {PRICE3}  For 3 Months Prime Membership\n\n"
-                f"● {PRICE4}  For 6 Months Prime Membership\n\n"
-                f"● {PRICE5}  For 1 Year Prime Membership\n\n\n"
-                f"💵 ASK UPI ID TO ADMIN AND PAY THERE -  <code>{UPI_ID}</code>\n\n\n"
-                f"♻️ After Payment You Will Get Instant Membership \n\n\n"
-                f"‼️ Must Send Screenshot after payment & If anyone want custom time membrship then ask admin"
+                f"<b><blockquote>👋 ʜᴇʏ {query.from_user.username}</blockquote></b>\n\n"
+                f"<b><blockquote>🎖️ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴꜱ :</blockquote></b>\n\n"
+                f"<b>❏ 𝟷𝟻₹     ➠    𝟶𝟷 ᴡᴇᴇᴋꜱ</b>\n"
+                f"<b>❏ 60₹     ➠    𝟶𝟷 ᴍᴏɴᴛʜ</b>\n"
+                f"<b>❏ 150₹    ➠    𝟶𝟹 ᴍᴏɴᴛʜ</b>\n"
+                f"<b>❏ 280₹    ➠    𝟶𝟼 ᴍᴏɴᴛʜ</b>\n"
+                f"<b>❏ 550₹    ➠    𝟷𝟸 ᴍᴏɴᴛʜ</b>\n\n"
+                f"<b>🆔 ᴜᴘɪ ɪᴅ ➩ <code>vishal.kumar@upi</code> [ᴛᴀᴘ ᴛᴏ ᴄᴏᴘʏ]</b>\n\n"
+                f"<b>⛽️ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ: /myplan</b>\n\n"
+                f"<b>‼️ ᴍᴜsᴛ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ ᴀғᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ.</b>"
             ),
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            "ADMIN 24/7", url=(SCREENSHOT_URL)
+                            "Send Payment Screenshot 📷", url=(SCREENSHOT_URL)
                         )
                     ],
                     [InlineKeyboardButton("🔒 Close", callback_data="close")],
