@@ -201,16 +201,11 @@ async def start_command(client: Client, message: Message):
                 print(f"Error updating notification with 'Get File Again' button: {e}")
     else:
         reply_markup = InlineKeyboardMarkup(
-            [
-                    [InlineKeyboardButton("• ᴍᴏʀᴇ ᴄʜᴀɴɴᴇʟs •", url="https://t.me/Nova_Flix/50")],
-
     [
-                    InlineKeyboardButton("• ᴀʙᴏᴜᴛ", callback_data = "about"),
-                    InlineKeyboardButton('ʜᴇʟᴘ •', callback_data = "help")
-
+        [InlineKeyboardButton("• ᴀʙᴏᴜᴛ •", callback_data="about")],
+        [InlineKeyboardButton("• ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ •", callback_data="premium")]
     ]
-            ]
-        )
+)
         await message.reply_photo(
             photo=START_PIC,
             caption=START_MSG.format(
