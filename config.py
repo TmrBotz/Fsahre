@@ -40,9 +40,9 @@ START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/ec17880d61180d3
 FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/ec17880d61180d3312d6a.jpg")
 
 #--------------------------------------------
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "adrinolinks.in")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "15e8cc7fea599bfeedac3f01d8da05a8b393484c")
-TUT_VID = os.environ.get("TUT_VID","https://t.me/How_2_Dl/12")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "instantlinks.co")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "8b150a8c8aab7e849902c4a8495ae7bcd22a53ea")
+TUT_VID = os.environ.get("TUT_VID","https://t.me/Hub_how_to_open")
 SHORT_MSG = "<b>⌯ Here is Your Download Link, Must Watch Tutorial Before Clicking On Download...</b>"
 
 SHORTENER_PIC = os.environ.get("SHORTENER_PIC", "https://telegra.ph/file/ec17880d61180d3312d6a.jpg")
